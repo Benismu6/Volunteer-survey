@@ -1,0 +1,111 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: Tbold;
+   
+}
+
+h1, p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "sans-serif", Arial;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(230deg, rgba(25, 149, 173, 0.8), rgba(161, 214, 226, 0.3) ), url('https://tie.usprogramming8.com/articles/3527.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+form {
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(25, 149, 173, 0.8);
+    overflow-y: auto;
+    height: 100vh;
+     padding-top: 10px;
+}
+
+fieldset {
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 500px;
+    border: none;
+    margin: auto;
+    border-bottom: 4px solid #063d49;
+    margin-bottom: 15px;
+}
+
+input {
+    margin: 10px 0 0 0;
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 2px;
+    height: 30px;
+
+}
+
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input, textarea {
+    background-color: rgb(241, 241, 242);
+    border: #063d49;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+}
+
+.city_state_zip {
+    width: 100px;
+    display: inline-flex;
+}
+
+.terms-and-conditions {
+    width: unset;
+    margin: 0 0.5em 0 0;
+}
+
+.submit-button {
+    display: block;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    
+}
+
+fieldset:last-of-type {
+    margin-bottom: 20px;
+    border-bottom: none;
+}
+
+textarea {
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+
